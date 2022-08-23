@@ -1,0 +1,269 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:"sans-serif", "Arial", "Helvetica";
+}
+body {
+    min-width:1000px;
+    margin:0px;
+}
+header, wrapper, footer {
+    width:100%;
+    min-width:1000px;
+    margin:auto;
+}
+
+/*-----------MENU-----------*/
+
+header nav {
+    overflow:hidden; 
+    font-size:14px;
+    width:100%;
+    z-index:100;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(255, 255, 255, .8);
+    color:#696969;
+}
+
+header nav ul li{
+    display:inline-block;
+    padding:15px 20px;
+    cursor: pointer;
+}
+
+header nav ul li:hover {
+    color:#000;
+}
+
+header nav ul {
+    float:left; 
+}
+
+header nav a {
+    padding:15px 20px;
+    float:left;
+    color:#696969;
+    text-decoration:none;
+    border-right:1px solid rgba(105, 105, 105, .5); 
+}
+
+header nav a:hover {
+    color:#000;
+}
+
+/*-----------CONTENIDO----------*/
+
+.wrapper .contenido {
+    background:#ebebeb;
+    padding:15px;
+    overflow:hidden;
+    
+}
+
+.wrapper .contenido .top {
+    width:70%;
+    margin:0px auto;
+    text-align:center; 
+}
+
+.wrapper .contenido .top img {
+    width:50%;
+    padding:35px 0px 10px 0px;
+}
+
+.wrapper .contenido article h4 {
+    font-weight:100;
+    line-height:58px;
+    font-size:20px;
+    text-align: center;
+}
+
+.wrapper .contenido article p {
+    color:#656565;
+}
+
+
+/*----------PREGUNTA - 1°----------*/
+
+.wrapper .contenido .pregunta1 {
+    width:40%;
+    margin-right:10%;
+    line-height:25px;
+    position:relative;
+    float:left;
+    left:0; 
+}
+
+/*----------PREGUNTA - 2°----------*/
+
+.wrapper .contenido .pregunta2 {
+    width:40%;
+    margin-left:10%;
+    line-height:25px;
+    position:relative;
+    float:left;
+}
+
+/*----------PREGUNTA - 3°----------*/
+
+.wrapper .contenido .pregunta3 {
+    width:55%;
+    display:block;
+    line-height:25px;
+    margin:0px auto 0px auto;
+    padding-top:100px;
+    margin:auto;
+    clear:both;
+}
+    
+    .wrapper .contenido .pregunta3 h5 {
+        text-align:left;
+        font-size:16px;
+        font-weight:300;
+        line-height:38px;
+        
+    }
+
+/*-----------FOOTER-----------*/
+
+footer {
+    background:#262626;
+    overflow:hidden;
+}
+
+/*-----------ELEMENTO - FOOTER-----------*/
+
+.RedesSociales {
+    width:100%;
+    position:relative;
+    padding-top:100px;
+}
+
+.RedesSociales p a{
+    color:#ccc;
+    float:right;
+    padding:15px 20px;
+    text-decoration:none;
+    border-left:1px solid #ccc;
+}
+
+.RedesSociales ul {
+    float:right; 
+}
+
+.RedesSociales ul li {
+    display:inline-block;
+    padding:15px 10px; 
+}
+
+.RedesSociales ul li a{
+    text-decoration:none;
+    color:#ccc;
+}
+
+.RedesSociales ul li a:hover {
+    color:#f8f8f8;
+}
+
+/*-----------ELEMENTO - FOOTER 2°-----------*/
+
+label {
+    font-size:12px;
+    display:block;
+    width:100%;
+    line-height:25px;
+    color:#ccc;
+}
+
+input, textarea {
+    margin-bottom:20px;
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+textarea {
+    resize:vertical;
+    max-height:300px;
+    min-height:100px;
+}
+
+input:focus, textarea:focus { 
+    border:1px solid #252932;
+}
+
+input[type="submit"] {
+    margin-bottom:0px;
+    background:rgba(0, 0, 0, .7);
+    color:#f2f2f2;
+    border:none;
+    border:1px solid #000; 
+    
+}
+
+input[type="submit"]:hover {
+    border:1px solid #fff; 
+    background:rgba(0, 0, 0, .5);
+    color:#fff;
+    transition:all .5s ease;
+    cursor:pointer;
+}
+
+/*-------------TABLAS-------------*/
+
+table {
+    color:#ccc;
+    cursor:default;
+}
+
+table tr:hover {
+    color:#fff;
+    text-shadow:0px 2px 1px #000;
+}
+
+/*-------------EXTRAS-------------*/
+
+.icono {
+    width:70%; 
+}
+
+span {
+    font-size:18;
+    line-height:30px;
+    color:#f2f2f2;
+}
+
+.formulario {
+    width:58%;
+    margin:70px auto 0px auto;
+    float:left;
+    box-sizing:border-box;
+    margin-left:1.5%;
+    border-left:1px solid #000;
+    padding-left:15px;
+}
+
+.contacto {
+    text-align: center;
+    width:25%;
+    margin:70px 0px 0px 100px;
+    float:left;
+}
+
+/*-------------CENTRAR CONTENIDO-------------*/
+
+.wrapper section div {
+    width:1200px;
+    overflow:hidden;
+    margin:auto;
+    
+}
+
+footer div {
+    position:relative;
+    width:1000px;
+    overflow:hidden;
+    margin:auto;  
+}
